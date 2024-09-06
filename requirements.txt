@@ -1,0 +1,9 @@
+pip install numpy==1.26.4
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+python -m pip install "tensorflow<2.11"
+conda install -c conda-forge gdal
+conda install scikit-image
+
+pip install shapely geopandas matplotlib pyreadr h5py tqdm joblib opencv-python fiona rasterio openpyxl mrcnn scikit-learn
+
+
